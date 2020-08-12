@@ -1,7 +1,7 @@
 {
   "name": "@dnvr/set-algebra",
   "version": "1.0.0",
-  "description": "Perform Set Algebra with JavaScript Sets.",
+  "description": "JavaScript Set Math.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

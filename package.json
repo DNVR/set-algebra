@@ -1,5 +1,5 @@
 {
-  "name": "set-algebra",
+  "name": "@dnvr/set-algebra",
   "version": "1.0.0",
   "description": "Perform Set Algebra with JavaScript Sets.",
   "main": "dist/index.js",

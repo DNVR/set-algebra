@@ -1,0 +1,24 @@
+{
+  "name": "set-algebra",
+  "version": "1.0.0",
+  "description": "Perform Set Algebra with JavaScript Sets.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DNVR/set-algebra.git"
+  },
+  "author": "Denver Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DNVR/set-algebra/issues"
+  },
+  "homepage": "https://github.com/DNVR/set-algebra#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}

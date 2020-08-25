@@ -19,6 +19,8 @@
   "homepage": "https://github.com/DNVR/set-algebra#readme",
   "dependencies": {},
   "devDependencies": {
+    "npx": "^10.2.2",
+    "rimraf": "^3.0.2",
     "typescript": "^3.9.7"
   }
 }

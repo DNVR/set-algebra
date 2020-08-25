@@ -2,10 +2,15 @@
   "name": "@dnvr/set-algebra",
   "version": "1.0.1",
   "description": "Perform Set Algebra with JavaScript Sets.",
-  "main": "dist/index.js",
+  "browser": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "tsc -p ."
+    "build:clean": "npx rimraf dist",
+    "build:construct": "npx tsc -p .",
+    "build": "npm run build:clean && npm run build:construct"
   },
   "repository": {
     "type": "git",

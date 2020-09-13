@@ -41,3 +41,12 @@ namespace SetAlgebra {
   }
   export const D = difference
 }
+
+export default SetAlgebra
+
+export const union: typeof SetAlgebra.union = SetAlgebra.union
+export const U: typeof SetAlgebra.U = SetAlgebra.U
+export const intersection: typeof SetAlgebra.intersection = SetAlgebra.intersection
+export const I: typeof SetAlgebra.I = SetAlgebra.I
+export const difference: typeof SetAlgebra.difference = SetAlgebra.difference
+export const D: typeof SetAlgebra.D = SetAlgebra.D

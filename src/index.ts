@@ -37,7 +37,7 @@ namespace SetAlgebra {
   export const I = intersection
   
   export function difference<T> ( a: Iterable<T> = [], b: Iterable<T> = [] ): Set<T> {
-    return iterable2set( iterable2array( a ).filter( differenceFilter, iterable2set( b ) ) )
+    return new Set( iterable2array( a ).filter( differenceFilter, iterable2set( b ) ) )
   }
   export const D = difference
 }
